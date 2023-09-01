@@ -1,1 +1,1 @@
-# WebApp-Canteen-Management
+# Canteen-Management
