@@ -11,12 +11,28 @@ A comprehensive web-based food ordering system designed to streamline operations
 - **Password Security**: Current password verification for password changes
 - **Responsive Design**: Works seamlessly across desktop and mobile devices
 
+
+## 📸 Screenshots
+
+### Main Menu & Ordering Interface
+![Menu Interface](screenshots/localhost_webapp_Project_w%20Database_Canteen-Management-db-v1_home.php.png)
+*Browse menu items organized by categories with easy "Add to Cart" functionality*
+
+### Shopping Cart System
+![Shopping Cart](screenshots/localhost_webapp_Project_w%20Database_Canteen-Management-db-v1_cart.php.png)
+*Real-time cart updates with quantity controls, pricing, and VAT calculations*
+
+### User Profile Management
+![Profile Management](screenshots/localhost_webapp_Project_w%20Database_Canteen-Management-db-v1_profile.php.png)
+*Comprehensive profile editing with secure password change functionality*
+
+
 ## 🛠️ Technologies Used
 
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Backend**: PHP
 - **Database**: MySQL
-- **Architecture**: MVC pattern for clean code organization
+
 
 ## 📋 Prerequisites
 
@@ -36,21 +52,16 @@ Before running this project, make sure you have:
    ```
 
 2. **Set up the database**
-   ```sql
-   -- Create database
-   CREATE DATABASE canteen_management;
-   
-   -- Create your tables (add your actual table structure here)
-   -- You'll need tables for users, menu_items, cart, orders, etc.
-   ```
+   - The database and tables are created automatically when you first run the application
+
 
 3. **Configure database connection**
    ```php
    // Update php/connect.php and db_conn.php with your credentials
-   $host = 'localhost';
-   $username = 'your_db_username';
-   $password = 'your_db_password';
-   $database = 'canteen_management';
+    $HOSTNAME='localhost';
+    $USERNAME='root';
+    $PASSWORD='';
+    $DATABASE='cms';
    ```
 
 4. **Start your web server**
@@ -59,18 +70,13 @@ Before running this project, make sure you have:
 
 ## 📱 Usage
 
-### For Students:
+
 1. **Register/Login** to create your account
 2. **Browse Menu** to see available food items
 3. **Add to Cart** items you want to order
 4. **Place Order** and receive confirmation
 5. **Manage Profile** including password changes
 
-### For Admin:
-1. **Login** with admin credentials
-2. **Manage Menu** - add, edit, or remove food items
-3. **View Orders** and update order status
-4. **Generate Reports** on sales and popular items
 
 ## 🏗️ Project Structure
 
@@ -129,52 +135,5 @@ WebApp-Canteen-Management/
 - **User Experience**: Intuitive interface design for quick food ordering
 - **Password Security**: Implemented current password verification for account changes
 
-## 🔮 Future Enhancements
 
-- [ ] Mobile app version using Flutter
-- [ ] Payment gateway integration
-- [ ] Real-time order tracking
-- [ ] Push notifications for order updates
-- [ ] Analytics dashboard for sales insights
 
-## 📸 Screenshots
-
-### Main Menu & Ordering Interface
-![Menu Interface](path/to/menu-screenshot.png)
-*Browse menu items organized by categories with easy "Add to Cart" functionality*
-
-### Shopping Cart System
-![Shopping Cart](path/to/cart-screenshot.png)
-*Real-time cart updates with quantity controls, pricing, and VAT calculations*
-
-### User Profile Management
-![Profile Management](path/to/profile-screenshot.png)
-*Comprehensive profile editing with secure password change functionality*
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Ikkty Rahman**
-- GitHub: [@eter-null](https://github.com/eter-null)
-- Email: ikktyrahman@gmail.com
-
-## 🙏 Acknowledgments
-
-- Independent University, Bangladesh - for providing the learning environment
-- Fellow students who provided feedback during development
-- Online communities that helped solve technical challenges
-
----
-
-⭐ **If you found this project helpful, please give it a star!** ⭐
