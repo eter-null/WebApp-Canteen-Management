@@ -23,7 +23,7 @@ A comprehensive web-based food ordering system designed to streamline operations
 *Real-time cart updates with quantity controls, pricing, and VAT calculations*
 
 ### User Profile Management
-![Profile Management](screenshots/profile.php.png)
+![Profile Management](screenshots/profile.png)
 *Comprehensive profile editing with secure password change functionality*
 
 
