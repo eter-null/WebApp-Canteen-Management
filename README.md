@@ -26,6 +26,9 @@ A comprehensive web-based food ordering system designed to streamline operations
 ![Profile Management](screenshots/profile.png)
 *Comprehensive profile editing with secure password change functionality*
 
+## 🎥 Live Demo
+
+[![Watch the Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/Z0zXG0vU8e0)
 
 ## 🛠️ Technologies Used
 
