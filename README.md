@@ -15,13 +15,16 @@ A comprehensive web-based food ordering system designed to streamline operations
 ## 📸 Screenshots
 
 ### Main Menu & Ordering Interface
-![Menu Interface](screenshots/localhost_webapp_Project_w%20Database_Canteen-Management-db-v1_home.php.png)
+![Menu Interface](screenshots/menu.png)
+*Browse menu items organized by categories with easy "Add to Cart" functionality*
 
 ### Shopping Cart System
-![Shopping Cart](screenshots/localhost_webapp_Project_w%20Database_Canteen-Management-db-v1_cart.php.png)
+![Shopping Cart](screenshots/cart.png)
+*Real-time cart updates with quantity controls, pricing, and VAT calculations*
 
 ### User Profile Management
-![Profile Management](screenshots/localhost_webapp_Project_w%20Database_Canteen-Management-db-v1_profile.php.png)
+![Profile Management](screenshots/profile.php.png)
+*Comprehensive profile editing with secure password change functionality*
 
 
 ## 🛠️ Technologies Used
